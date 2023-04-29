@@ -10,6 +10,7 @@ import java.time.Duration;
 
 public abstract class TestBase {
     // abstract yapmamizin sebebi, bu class'dan obje uretilmesinin onune gecmektir. Sart degildir
+
     protected WebDriver driver;
     @Before
     public void setUp() {
@@ -23,4 +24,6 @@ public abstract class TestBase {
         Thread.sleep(5000);
         //driver.quit();
     }
+
+
 }

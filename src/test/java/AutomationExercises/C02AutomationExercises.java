@@ -12,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class C02AutomationExercises {
+
     /*
       1. Launch browser
       2. Navigate to url 'http://automationexercise.com'
@@ -24,6 +25,7 @@ public class C02AutomationExercises {
       9. Click 'Delete Account' button
       10. Verify that 'ACCOUNT DELETED!' is visible
      */
+
     WebDriver driver;
     @Before
     public void setUp() {
